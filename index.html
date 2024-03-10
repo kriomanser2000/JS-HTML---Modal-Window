@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Window</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="OpenBtn" onclick="openModal()">Open</button>
+    <div class="modal" id="mModal">
+        <div class="mCont">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p>It`s modal window with text.</p>
+            <button onclick="closeModal()">Close</button>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
